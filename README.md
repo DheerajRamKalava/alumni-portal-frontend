@@ -15,6 +15,12 @@ Frontend task submission for IAR Cell recruitment.
 - Home page with image slider and alumni testimonials
 - IAR Cell logo integration in Home page
 
+## Pages
+- Route path="/" : SignInPage
+- Route path="/home" : HomePage
+- Route path="/admin" : AdminDashboard
+- Route path="/profile" : ProfilePage
+
 ## Issues Faced
 - Minor trouble setting up Tailwind initially
 - Image slider responsiveness needed tuning
