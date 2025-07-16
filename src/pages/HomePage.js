@@ -16,7 +16,7 @@ const images = [
 
 const testimonials = [
   {
-    name: "Gaurav Saharan",
+    name: "Gaurav SaharanZ",
     year: "2020",
     message: "Grateful for the opportunities and network built through the alumni community.",
   },
