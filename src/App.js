@@ -4,6 +4,8 @@ import SignInPage from './pages/SignInPage';
 import ProfilePage from './pages/ProfilePage';
 import HomePage from './pages/HomePage';
 import AdminDashboard from './pages/AdminDashboard';
+import SignUpPage from './pages/SignUpPage';
+
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -20,6 +22,8 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/signup" element={<SignUpPage />} />
+
       </Routes>
     </BrowserRouter>
   );
