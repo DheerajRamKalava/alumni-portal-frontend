@@ -895,7 +895,7 @@ const SignUpPage = () => {
 
         {/* Form */}
         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
-          <input name="campusID" value={formData.campusID} onChange={handleChange} placeholder="Campus ID (9-digit Roll No)" className={inputStyle} />
+          <input name="campusID" value={formData.campusID} onChange={handleChange} placeholder="Campus ID" className={inputStyle} />
           <input name="name" value={formData.name} onChange={handleChange} placeholder="Full Name" className={inputStyle} />
           <input name="email" value={formData.email} onChange={handleChange} type="email" placeholder="Email" className={inputStyle} />
           <input name="contact1" value={formData.contact1} onChange={handleChange} placeholder="Contact Number 1" className={inputStyle} />
