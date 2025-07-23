@@ -23,6 +23,7 @@ function App() {
       >
         <Routes>
           <Route path="/" element={<SignInPage />} />
+          <Route path="/signin" element={<SignInPage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/profile" element={<ProfilePage />} />
