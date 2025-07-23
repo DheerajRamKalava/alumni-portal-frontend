@@ -17,14 +17,18 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<SignInPage />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/admin" element={<AdminDashboard />} />
-        <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/signup" element={<SignUpPage />} />
-
-      </Routes>
+      <div
+        className="min-h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url('/assets/image.png')" }}
+      >
+        <Routes>
+          <Route path="/" element={<SignInPage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/signup" element={<SignUpPage />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }

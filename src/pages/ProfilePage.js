@@ -25,7 +25,8 @@ function ProfilePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center items-start pt-10">
+    // <div className="min-h-screen bg-gray-100 flex justify-center items-start pt-10">
+    <div className="min-h-screen flex justify-center items-start pt-10">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-2xl text-center">
         <h2 className="text-2xl font-bold mb-4">Alumni Profile</h2>
 

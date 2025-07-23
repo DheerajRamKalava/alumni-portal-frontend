@@ -884,7 +884,8 @@ const SignUpPage = () => {
   const inputStyle = `w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FFAD00] transition`;
 
   return (
-    <div className="min-h-screen bg-gray-50 py-10 px-4 flex items-center justify-center">
+    // <div className="min-h-screen bg-gray-50 py-10 px-4 flex items-center justify-center">
+    <div className="min-h-screen py-10 px-4 flex items-center justify-center">
       <div className="w-full max-w-6xl bg-white shadow-xl border border-gray-200 rounded-2xl p-10">
 
         {/* Header */}

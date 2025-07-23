@@ -41,7 +41,8 @@ function AdminDashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-10 px-6">
+    // <div className="min-h-screen bg-gray-100 py-10 px-6">
+    <div className="min-h-screen py-10 px-6">
       <h2 className="text-3xl font-bold mb-6 text-center">Admin Dashboard</h2>
 
       {/* Add Alumni UI */}
