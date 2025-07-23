@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <div
         className="min-h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/assets/image.png')" }}
+        style={{ backgroundImage: "url('/assets/image2.png')" }}
       >
         <Routes>
           <Route path="/" element={<SignInPage />} />
